@@ -1,4 +1,4 @@
-# Our first project!
+# :sparkles: Our first project! :sparkles:
 
 Required watching:
   > https://www.youtube.com/watch?v=qpXxcvS-g3g&t=3s - using GH with unity
