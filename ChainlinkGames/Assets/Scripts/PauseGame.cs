@@ -45,6 +45,6 @@ public class PauseGame : MonoBehaviour
 
     public void QuitGame()
     {
-
+        // Exit game
     }
 }
