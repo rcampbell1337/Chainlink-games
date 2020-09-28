@@ -11,6 +11,8 @@ public class Dialog : MonoBehaviour
     public float typingSpeed = 0.00001f;
 
     public GameObject continueButton;
+    public GameObject player;
+    public GameObject cam;
     Animator animator;
 
     void Start()
@@ -51,6 +53,8 @@ public class Dialog : MonoBehaviour
         {
             textDisplay.text = "";
             continueButton.SetActive(false);
+            player.SetActive(true);
+            cam.SetActive(false);
             Time.timeScale = 1;
         }
     }
