@@ -5,13 +5,12 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+// Starts the game after inputting player name
 public class OpenLevelOne : MonoBehaviour
 {
-
     public TextMeshProUGUI playerName;
     public void StartGame()
     {
-        Debug.Log(playerName.text);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         GameSettings.playerNamestr = playerName.text;
     }
