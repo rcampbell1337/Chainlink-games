@@ -18,9 +18,7 @@ Would be nice for you to look at:
 
 3. When you do make commits to branches make sure your commit messages are __meaningful__! Furthermore, try and summarise briefly in the commit __then__ elaborate in the commit description where necessary.
 
-4. Any tasks that need to be completed should be raised as an "issue" in the "issues" tab of the github repository, this will automatically be added to the project todo list. You can also assign timescales and who to is part of the implementation process of the issue in question. _This is new to me, so once again bear with me!_
-
-5. Finally, try and keep the actual unity project as neat as possible, here are 2 examples:
+4. Finally, try and keep the actual unity project as neat as possible, here are 2 examples:
       > If you make a new sound effect - place it in the correct unity audio folder
   
       > If you have a new animator object but no folder for it yet exists - create one and name the animator        meaningfully so we both know where to find it and what exactly the animator is for.
