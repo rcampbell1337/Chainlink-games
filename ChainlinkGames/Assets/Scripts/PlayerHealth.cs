@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class PlayerHealth : MonoBehaviour
 {
     public int maxHealth = 100;
-    public int currentHealth;
+    public static int currentHealth;
 
     // Reference to the healthbar graphic ingame
     public HealthBarScript healthbar;

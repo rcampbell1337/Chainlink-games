@@ -8,6 +8,8 @@ TagManager:
   - Enemy
   - Right
   - Left
+  - Health
+  - ItemArray
   layers:
   - Default
   - TransparentFX
