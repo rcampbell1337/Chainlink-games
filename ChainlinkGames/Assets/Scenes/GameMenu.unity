@@ -869,7 +869,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.0000076294, y: -226}
+  m_AnchoredPosition: {x: -0.0000076294, y: -143}
   m_SizeDelta: {x: 302.70297, y: 41.351288}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1045005005
@@ -1019,7 +1019,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0000076294, y: -140}
+  m_AnchoredPosition: {x: 0.0000076294, y: -97}
   m_SizeDelta: {x: 295.13544, y: 40.27018}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1185424123
@@ -1336,6 +1336,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3312d7739989d2b4e91e6319e9a96d76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Padding: {x: 0, y: 0, z: 0, w: 0}
+  m_Softness: {x: 0, y: 0}
 --- !u!1 &1303085562
 GameObject:
   m_ObjectHideFlags: 0
@@ -1721,7 +1723,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 644e155fc261b8d4cb77d3f05b4e0e2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpHeight: 300
 --- !u!61 &1421344101
 BoxCollider2D:
   m_ObjectHideFlags: 0

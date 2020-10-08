@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SaveLoadManager : MonoBehaviour
 {
@@ -19,6 +20,7 @@ public class SaveLoadManager : MonoBehaviour
         PlayerData data = SaveSystem.LoadPlayer();
         GameSettings.playerNamestr = data.name;
         PlayerHealth.currentHealth = data.health;
+        SceneManager.LoadScene(data.currentScene);
 
         Vector3 position;
         position.x = data.position[0];
