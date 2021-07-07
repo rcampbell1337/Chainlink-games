@@ -8,7 +8,7 @@ public class JumpScript : MonoBehaviour
 {
 
     // How high can the player jump
-    public float jumpHeight;
+    public static float jumpHeight = 0;
 
     // Makes sure the player cannot jump more than once while in the air
     private bool isJumping = false;

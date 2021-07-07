@@ -24,9 +24,12 @@ public class Dialog : MonoBehaviour
      All of the private variables:
     parentForClose: Text display canvas is closed from here
     animator: enables and disables animations
+    private: get Players rigidbody
     index: an integer which tracks the number of sentences shown
      */
     private GameObject parentForClose;
+    private GameObject player;
+    private Rigidbody2D rb;
     private Animator animator;
     private int index;
 
@@ -37,6 +40,8 @@ public class Dialog : MonoBehaviour
         animator = gameObject.GetComponent<Animator>();
         textDisplay = gameObject.GetComponent<TextMeshProUGUI>();
         parentForClose = transform.parent.gameObject;
+        player = GameObject.FindGameObjectWithTag("Player");
+        rb = player.GetComponent<Rigidbody2D>();
     }
 
     // Checks to see if the continue option is allowed when a sentence is completed
@@ -80,7 +85,9 @@ public class Dialog : MonoBehaviour
             continueButton.SetActive(false);
             game.SetActive(true);
             parentForClose.SetActive(false);
-            Time.timeScale = 1;
+            rb.gravityScale = 2.5f;
+            JumpScript.jumpHeight = 200;
+            player.SetActive(true);
         }
     }
 }
